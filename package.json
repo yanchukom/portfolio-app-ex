@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "predeploy": "pnpm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d .next",
     "prisma-db": "prisma generate",
     "lint": "next lint"
